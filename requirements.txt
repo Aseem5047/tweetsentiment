@@ -3,3 +3,4 @@ Flask_Cors==3.0.10
 nltk==3.8.1
 pandas==1.5.3
 Werkzeug==2.2.2
+scikit-learn==1.4.1.post1
