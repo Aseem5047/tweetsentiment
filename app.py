@@ -1,11 +1,14 @@
 from flask import Flask, request, jsonify
 import pickle
 import re
+
 import nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+
 import string
 import pandas as pd
 from flask_cors import CORS, cross_origin
