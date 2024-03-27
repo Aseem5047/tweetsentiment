@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify
 import pickle
 import re
+import nltk
+nltk.download('stopwords')
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
